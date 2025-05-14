@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devic
+    e-width, initial-scale=1.0">
+    <title>GuilhermeSants</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center; color:brown">Guilherme santos</h1> 
+        <div id="plane">✈️</div>
+
+<style>
+  #plane {
+    position: fixed;
+    top: 50%;
+    left: -100px;
+    font-size: 2rem;
+    animation: fly 8s linear infinite;
+  }
+
+  @keyframes fly {
+    0% { left: -100px; transform: rotate(0deg); }
+    100% { left: 110%; transform: rotate(15deg); }
+  }
+</style>
+
+
+
+
+</div>
+    
+    <p style="font-size: 35px;">Ola me chamo guilherme, tenho 26 anos, sou profissional da area da saúde, e atualmente estou migrando para area de TI. Sou natural da regiao metropolitana do RJ. gosto de praia, pagode e viagens.</p>
+
+    <button onclick="mostrarMensagem()">Clique Para ver uma Mensagem</button>
+    <p id="bora"></p>
+    
+    <script>
+        function mostrarMensagem() {
+          document.getElementById("bora").textContent ="Vamos fazer um Tour";
+        }
+
+
+    </script>
+
+    <h1 id="typewriter"></h1>
+
+<script>
+  const text = "Bem-vindo(a) ao meu trabalho da faculdade!";
+  let i = 0;
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById("typewriter").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, 100);
+    }
+  }
+  typeWriter();
+</script>
+
+<h1 style="text-align: center; font-size: 3rem;">404</h1>
+<p style="text-align: center;">Você caiu em um buraco negro 😵‍💫</p>
+
+<style>
+  body {
+    background: radial-gradient(circle, (0, 0, 0) 30%, #222);
+    color: white;
+    font-family: monospace;
+    animation: spin 10s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { background-position: center; }
+    100% { background-position: 1000px 1000px; }
+  }
+</style>
+
+
+
+</script>
+
+
+    <ul>
+        <li>curto ir a praia</li>
+        <li>fazer trilha</li>
+        <li>assistir filmes</li>
+    </ul>
+
+    <style>
+        ul li {
+            margin-bottom: 10px;
+       }
+
+    </style>
+
+        <img src="logo.jpg" class="foto">
+
+        <style>
+            .foto {
+                border-radius:15px;
+                width: 600px;
+                height: auto;
+            
+            }
+        </style>
+
+       
+        <table border="1">
+            <caption>viagens</caption>
+            <tr>
+                <td><img src="canada.jpg" width="300" alt=""></td> 
+                <td><img src="Franca.jpg" width="300" alt=""></td>
+                <td><img src="japao.jpg" width="300"></td>
+
+                <a href="">https://canaltech.com.br/</a>
+                <style>
+                    .meu-link {
+                        color:blue;
+                        text-decoration: none;
+
+                        .meu-link:hover {
+                            color: rgb(145, 255, 0);
+                        }
+
+
+
+                    }
+                </style>
+
+
+
+             </table>
+
+             <style>
+                body { background-color: rgb(67, 204, 204);}
+             </style>
+
+             
+             
+</body>
+</html>
